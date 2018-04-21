@@ -1020,11 +1020,36 @@ Parameters and functions used to describe the tree are described as follows:"""
     #                    Print classifier for population output file                    #
     #####################################################################################
 
+    # Converts the tree representation into a mathematical expression for writing into the output rule population.
+    def form_expression(self, node):
+        # Preorder traversal of the tree is made to form the mathematical expression.
+
+        retval = []
+        if (node.children is None):
+            retval.append(str(node.data))
+
+        elif (len(node.children) == 1):
+            retval.append(node.data)
+            retval.append("(")
+            retval.append(self.form_expression(node.children[0]))
+            retval.append(")")
+
+        else:
+            retval.append(node.data)
+            retval.append("(")
+            retval.append(self.form_expression(node.children[0]))
+            retval.append(", ")
+            retval.append(self.form_expression(node.children[1]))
+            retval.append(")")
+
+        return "".join(retval)
+
+
     def printClassifier(self):
 
         classifierString = ""
         classifierString += str(self.specifiedAttList) + "\t"
-        classifierString += str(self) + "\t"
+        classifierString += self.form_expression(self.root) + "\t"
         # -------------------------------------------------------------------------------
         specificity = float(cons.env.formatData.numAttributes)
         epoch = 0
