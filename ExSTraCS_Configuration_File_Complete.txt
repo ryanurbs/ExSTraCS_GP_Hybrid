@@ -8,8 +8,8 @@
 ######---------------------------------------------------------------------------------------------------------------------------------
 ######Dataset Parameters
 ######---------------------------------------------------------------------------------------------------------------------------------
-trainFile=Datasets/SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_0#DiscreteFullData_Trans1_CV_1_Train#	    Training file is required (Can optionally include .txt extension in filename.)
-testFile=Datasets/SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_1#DiscreteFullData_Trans1_CV_1_Test#20_1600_Het_0.4_0.2_50_EDM-2_001_CV_0_Test#	Testing file is optional. If no testing data available or desired, put 'None' (no quotes).  Default is 'None' (Can optionally include .txt extension in filename.)
+trainFile=Datasets/Simple_Regression_2X#SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_0#DiscreteFullData_Trans1_CV_1_Train#	    Training file is required (Can optionally include .txt extension in filename.)
+testFile=Datasets/Simple_Regression_2X#SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_1#DiscreteFullData_Trans1_CV_1_Test#20_1600_Het_0.4_0.2_50_EDM-2_001_CV_0_Test#	Testing file is optional. If no testing data available or desired, put 'None' (no quotes).  Default is 'None' (Can optionally include .txt extension in filename.)
 outFileName=Local_Output/#											Optional output filepath and filename prefix.
 offlineData=1#												Is ExSTraCS loading a finite dataset(1= TRUE), or is it being fed data online from an 'infinite' source (e.g. some other environment such as a multiplexer problem feed (0=False)
 internalCrossValidation=0#									1 is True, 0 is False; Generate CV dataset files and run ExSTraCS on them serially. (NOT FULLY TESTED)
