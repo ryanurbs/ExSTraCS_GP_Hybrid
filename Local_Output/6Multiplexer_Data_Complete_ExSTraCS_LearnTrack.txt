@@ -1,0 +1,2 @@
+Explore_Iteration	MacroPopSize	MicroPopSize	Accuracy_Estimate	AveGenerality	ExpRules	Time(min)
+100	630	1000	0.64	0.530166666666667	0.9873015873015873	0.12189574639002482
