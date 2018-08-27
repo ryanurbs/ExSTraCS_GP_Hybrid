@@ -67,7 +67,7 @@ class ExSTraCS:
         else:
             try: #Establish output file to store learning progress.
                 self.learnTrackOut = open(cons.outFileName+'_LearnTrack.txt','w')
-                self.learnTrackOut.write("Explore_Iteration\tMacroPopSize\tMicroPopSize\tAccuracy_Estimate\tAveGenerality\tExpRules\tTime(min)\n")
+                self.learnTrackOut.write("Epoch\tExplore_Iteration\tMacroPopSize\tMicroPopSize\tAccuracy_Estimate\tRuleCount\tTreeCount\tAveGenerality\tExpRules\tTime(min)\n")
             except IOError as xxx_todo_changeme1:
                 (errno, strerror) = xxx_todo_changeme1.args
                 print(("I/O error(%s): %s" % (errno, strerror)))

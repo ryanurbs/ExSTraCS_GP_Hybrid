@@ -1345,7 +1345,7 @@ class ClassifierSet:
                 numRules += 1
         
         
-        trackString = str(exploreIter)+ "\t" + str(len(self.popSet)) + "\t" + str(self.microPopSize) + "\t" + str(accuracy) + "\t" + str(self.aveGenerality) + "\t" + str(self.expRules)  + "\t" + str(cons.timer.returnGlobalTimer())+ "\n"
+        trackString = str(int(exploreIter/trackingFrequency)) + "\t" + str(exploreIter)+ "\t" + str(len(self.popSet)) + "\t" + str(self.microPopSize) + "\t" + str(accuracy) + "\t" + str(numRules)  + "\t" + str(numTrees) + "\t" + str(self.aveGenerality) + "\t" + str(self.expRules)  + "\t" + str(cons.timer.returnGlobalTimer())+ "\n"
         #-------------------------------------------------------
         # DISCRETE PHENOTYPE
         #-------------------------------------------------------
