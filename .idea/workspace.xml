@@ -2,204 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abef1ff0-0cef-4754-b440-eda846ca2e41" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ExSTraCS_GP_Hybrid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExSTraCS_GP_Hybrid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Regression(3*X1+X2)_Train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasets/Regression(X*Sin(X))_Train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(2*X).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(3*X1+X2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(SinX+CosX).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(X*Sin(X)).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(X*X).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(X*X*X).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(X+Z).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(X1*X2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(X1:3+X2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression(sin(X)).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Regression_Noise(X*X).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Simple_Regression_2X.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ExSTraCS_Configuration_File_Complete.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ExSTraCS_Configuration_File_Complete.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(2*X)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X*X*X)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_LearnTrack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_LearnTrack.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1*X2)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X1:3+X2)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(sin(X))_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Regression_Noise(X*X)_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_5000_AttTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_5000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_5000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_5000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_5000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_LearnTrack.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_RC_QRF_10000_CO.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_RC_QRF_10000_PopStats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_RC_QRF_10000_Predictions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_RC_QRF_10000_RulePop.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_multisurf_scores.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exstracs_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/exstracs_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exstracs_classifierset.py" beforeDir="false" afterPath="$PROJECT_DIR$/exstracs_classifierset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GP_Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/GP_Tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_100000_AttTrack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_100000_CO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_100000_PopStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_100000_Predictions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_100000_RulePop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_50000_AttTrack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_50000_CO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_50000_PopStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_50000_Predictions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_50000_RulePop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_100000_CO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_100000_PopStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_100000_Predictions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_RC_QRF_100000_RulePop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_100000_AttTrack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_100000_CO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_100000_PopStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_100000_Predictions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_100000_RulePop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_50000_AttTrack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_50000_CO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_50000_PopStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_50000_Predictions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_50000_RulePop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_LearnTrack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_100000_CO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_100000_PopStats.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_100000_Predictions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_RC_QRF_100000_RulePop.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,40 +56,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ExSTraCS_GP_Hybrid$exstracs_test.coverage" NAME="exstracs_test Coverage Results" MODIFIED="1535396187046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ExSTraCS_GP_Hybrid$exstracs_test.coverage" NAME="exstracs_test Coverage Results" MODIFIED="1536166263899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="23947967">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
-          <entry key="txt" value="14" />
+          <entry key="py" value="16" />
+          <entry key="txt" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="69" />
-          <entry key="txt" value="9" />
+          <entry key="py" value="103" />
+          <entry key="txt" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="69" />
+          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="Python" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -250,30 +99,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExSTraCS_Configuration_File_Complete.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2X)_Train_ExSTraCS_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exstracs_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="10" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X:3+5)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X^2)_Train_ExSTraCS_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X^3)_Train_ExSTraCS_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X1+X2)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X1*X2)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(SinX)_Train_ExSTraCS_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_Train_ExSTraCS_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exstracs_classifierset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -293,10 +165,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/exstracs_tree.py" />
-        <option value="$PROJECT_DIR$/GP_Tree.py" />
         <option value="$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_RulePop.txt" />
         <option value="$PROJECT_DIR$/exstracs_classifierset.py" />
         <option value="$PROJECT_DIR$/exstracs_algorithm.py" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(3*X1+X2)_Test.txt" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(SinX+CosX)_Train.txt" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(SinX+CosX)_Test.txt" />
+        <option value="$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_Train_ExSTraCS_LearnTrack.txt" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(SinX)_Test.txt" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(X1*X2)_Test.txt" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(X^2)_Test.txt" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(X^3)_Train.txt" />
+        <option value="$PROJECT_DIR$/Datasets/Regression(X^3)_Test.txt" />
+        <option value="$PROJECT_DIR$/GP_Tree.py" />
         <option value="$PROJECT_DIR$/ExSTraCS_Configuration_File_Complete.txt" />
       </list>
     </option>
@@ -316,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,17 +207,18 @@
             <path>
               <item name="ExSTraCS_GP_Hybrid" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExSTraCS_GP_Hybrid" type="462c0819:PsiDirectoryNode" />
-              <item name="Local_Output" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExSTraCS_GP_Hybrid" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExSTraCS_GP_Hybrid" type="462c0819:PsiDirectoryNode" />
-              <item name="RBA" type="462c0819:PsiDirectoryNode" />
+              <item name="Local_Output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,9 +233,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/Desktop/ExSTraCS ouputs/Regression(SinX+CosX)" />
-      <recent name="$USER_HOME$/Desktop/ExSTraCS ouputs/Regression(X+Y)" />
-      <recent name="$PROJECT_DIR$/Datasets" />
+      <recent name="$USER_HOME$/Desktop/ExSTraCS ouputs/Regression(2X)" />
+      <recent name="$USER_HOME$/Desktop/ExSTraCS ouputs/Regression(2*X+5)" />
+      <recent name="$USER_HOME$/Desktop/ExSTraCS ouputs/Regression(X1+X2)" />
+      <recent name="$USER_HOME$/Desktop/ExSTraCS ouputs/Regression(X:3+5)" />
+      <recent name="$USER_HOME$/Desktop/ExSTraCS ouputs/Regression(X^3)" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -415,12 +298,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42989987" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39759037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3819277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,7 +318,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.6523605" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.43061516" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -446,208 +329,242 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_5000_RulePop.txt">
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(3*X1+X2)_Test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="64" selection-start-column="64" selection-end-column="64" />
+        <state relative-caret-position="15283">
+          <caret line="899" column="87" selection-start-line="899" selection-start-column="87" selection-end-line="899" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_multisurf_scores.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_LearnTrack.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/37Multiplexer_Data_10000_1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168691" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/37Multiplexer_Data_10000_0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exstracs_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_5000_Predictions.txt">
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(SinX+CosX)_Test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_5000_AttTrack.txt">
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(sin(X)).txt" />
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(SinX)_Train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_Train_ExSTraCS_LearnTrack.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X1*X2).txt" />
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(SinX+CosX)_Train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X*Sin(X))_Train.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
-          <caret lean-forward="true" />
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/SimpleAdditive_MulticlassEndpoint.txt">
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(SinX)_Train_ExSTraCS_100000_RulePop.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1574">
-          <caret line="162" column="41" lean-forward="true" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="41" />
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_10000_RulePop.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_5000_PopStats.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/Simple_Regression_2X.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/SimpleAdditive_ContinuousEndpoint.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_10000_PopStats.txt">
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X*Sin(X))_Test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/SimpleAdditive_ContinuousEndpoint_ExSTraCS_5000_CO.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_PopStats.txt">
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(SinX)_Test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="302">
+          <caret line="806" column="124" selection-start-line="806" selection-start-column="124" selection-end-line="806" selection-end-column="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_5000_RulePop.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_RulePop.txt">
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X+Z).txt" />
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X1*X2)_Test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Simple_Regression_2X_ExSTraCS_10000_Predictions.txt">
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X1*X2)_Train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X1*X2)_Train_ExSTraCS_LearnTrack.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="772" selection-start-line="772" selection-end-line="772" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X^3)_Train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="1500" column="123" selection-start-line="1500" selection-start-column="123" selection-end-line="1500" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X^3)_Test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="875" column="24" selection-start-line="875" selection-start-column="24" selection-end-line="875" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X^2)_Train_ExSTraCS_LearnTrack.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X^2)_Train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X^2)_Train_multisurf_scores.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X^3)_Train_ExSTraCS_LearnTrack.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X^2)_Test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="826" column="44" selection-start-line="826" selection-start-column="44" selection-end-line="826" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X:3+5)_Train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25094" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X:3+5)_Test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13177" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_LearnTrack.txt" />
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X1+X2)_Train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X1+X2)_Test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2*X+5)_Train_ExSTraCS_RC_QRF_100000_RulePop.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9783" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X:3+5)_Train_ExSTraCS_LearnTrack.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2*X+5)_Train_ExSTraCS_LearnTrack.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GP_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state relative-caret-position="243">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_100000_PopStats.txt">
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_LearnTrack.txt" />
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2X)_Train_ExSTraCS_100000_RulePop.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="269">
+          <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_100000_RulePop.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X+Z).txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/Regression(SinX+CosX).txt">
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_Train_ExSTraCS_RC_QRF_100000_RulePop.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10351" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exstracs_timer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/6Multiplexer_Data_Complete_ExSTraCS_RC_QRF_10000_Predictions.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/6Multiplexer_Data_Complete_ExSTraCS_RC_QRF_10000_PopStats.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/6Multiplexer_Data_Complete_ExSTraCS_RC_QRF_10000_CO.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/6Multiplexer_Data_Complete_ExSTraCS_LearnTrack.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exstracs_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="374">
+          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exstracs_test.py">
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_Train_ExSTraCS_LearnTrack.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="3860">
+          <caret line="996" column="15" lean-forward="true" selection-start-line="996" selection-start-column="15" selection-end-line="996" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2*X)_ExSTraCS_LearnTrack.txt">
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_Train_multisurf_scores.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasets/Regression(X:3)_Train.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-24800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2X)_Train_ExSTraCS_RC_QRF_100000_RulePop.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1802" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_Train_ExSTraCS_100000_RulePop.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7951">
+          <caret column="260" selection-start-column="260" selection-end-column="260" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExSTraCS_Configuration_File_Complete.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_ExSTraCS_LearnTrack.txt">
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2*X+5)_Train_ExSTraCS_100000_PopStats.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exstracs_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="65" column="64" lean-forward="true" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(2X)_Train_ExSTraCS_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X+Z)_ExSTraCS_LearnTrack.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X:3+5)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/exstracs_classifierset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X^2)_Train_ExSTraCS_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X^3)_Train_ExSTraCS_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X1+X2)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(3*X1+X2)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X1*X2)_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(SinX)_Train_ExSTraCS_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(SinX+CosX)_Train_ExSTraCS_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Local_Output/Regression(X*Sin(X))_Train_ExSTraCS_RC_QRF_100000_PopStats.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

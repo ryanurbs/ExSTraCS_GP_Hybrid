@@ -82,9 +82,9 @@ Parameters and functions used to describe the tree are described as follows:"""
 
             return retval
 
-    #function_set=("add", "mul", "sub", "div", "cos", "max", "sin", "neg", "lt", "gt")
-    def __init__(self, function_set=("add", "mul", "sub", "div"), \
-                 num_features=None, min_depth=2, max_depth=3):
+
+    def __init__(self, function_set=("add", "mul", "sub", "div", "cos", "max", "sin", "neg", "min"),\
+                num_features=None, min_depth=2, max_depth=3):
 
         """The constructor of GP_Tree accepts the function set, terminal set, number of features to keep in the tree
         (eg: if the value of num_features =1, features in tree would be X0, if num_features=3, features in tree would be
@@ -93,7 +93,7 @@ Parameters and functions used to describe the tree are described as follows:"""
         self.function_set = function_set
         # A list of functions to be used. Custom functions can be created.'
 
-        self.terminal_set = [random.randint(-5, 5), random.randint(-5, 5)]
+        self.terminal_set = [random.randint(-6, 6), random.randint(-6, 6), random.randint(-6, 6)]
         # List of floating point or zero arity functions acting as the terminals
         # of the tree
 

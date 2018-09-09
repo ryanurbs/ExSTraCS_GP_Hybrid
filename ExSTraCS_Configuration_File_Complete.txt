@@ -7,9 +7,10 @@
 ######				useful for clustering instances in your data set later by the attribute tracking scores for each instance.
 ######---------------------------------------------------------------------------------------------------------------------------------
 ######Dataset Parameters
+
 ######---------------------------------------------------------------------------------------------------------------------------------
-trainFile=Datasets/Regression(SinX+CosX)#SimpleAdditive_ContinuousEndpoint#Regression(2*X)#Regression(X*Sin(X))#Regression(X*X*X)#Regression(3*X1+X2)#Regression(X1:3+X2)#Regression(sin(X))#SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_0#DiscreteFullData_Trans1_CV_1_Train#	    Training file is required (Can optionally include .txt extension in filename.)
-testFile=Datasets/Regression(SinX+CosX)#Regression(X1*X2)#Regression(SinX+CosX)#SimpleAdditive_ContinuousEndpoint#Regression(2*X)#Regression(X*Sin(X))#Regression(X*X*X)#Regression(3*X1+X2)#Regression(X1:3+X2)#Regression(sin(X))#SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_1#DiscreteFullData_Trans1_CV_1_Test#20_1600_Het_0.4_0.2_50_EDM-2_001_CV_0_Test#	Testing file is optional. If no testing data available or desired, put 'None' (no quotes).  Default is 'None' (Can optionally include .txt extension in filename.)
+trainFile=Datasets/Regression(X:3)_Train#Regression(X:3+5)_Train#Regression(X1*X2)_Train#Regression(SinX+CosX)_Train#Regression(3*X1+X2)_Train#Regression(2*X)#SimpleAdditive_ContinuousEndpoint#Regression(2*X)#Regression(X*Sin(X))#Regression(X*X*X)#Regression(X1:3+X2)#Regression(sin(X))#SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_0#DiscreteFullData_Trans1_CV_1_Train#	    Training file is required (Can optionally include .txt extension in filename.)
+testFile=Datasets/Regression(X:3)_Test#Regression(X:3+5)_Test#Regression(X1*X2)_Test#Regression(SinX+CosX)_Test#Regression(3*X1+X2)_Test#Regression(2*X)#Regression(SinX+CosX)#Regression(X1*X2)#Regression(SinX+CosX)#SimpleAdditive_ContinuousEndpoint#Regression(2*X)#Regression(X*Sin(X))#Regression(X*X*X)#Regression(3*X1+X2)#Regression(X1:3+X2)#Regression(sin(X))#SimpleAdditive_ContinuousEndpoint#6Multiplexer_Data_Complete#20Multiplexer_Data_10000_1#DiscreteFullData_Trans1_CV_1_Test#20_1600_Het_0.4_0.2_50_EDM-2_001_CV_0_Test#	Testing file is optional. If no testing data available or desired, put 'None' (no quotes).  Default is 'None' (Can optionally include .txt extension in filename.)
 outFileName=Local_Output/#									Optional output filepath and filename prefix.
 offlineData=1#												Is ExSTraCS loading a finite dataset(1= TRUE), or is it being fed data online from an 'infinite' source (e.g. some other environment such as a multiplexer problem feed (0=False)
 internalCrossValidation=0#									1 is True, 0 is False; Generate CV dataset files and run ExSTraCS on them serially. (NOT FULLY TESTED)
@@ -22,7 +23,7 @@ labelMissingData=NA#										Indicates how missing data is labeled in the data 
 ######General Run Parameters
 ######---------------------------------------------------------------------------------------------------------------------------------
 trackingFrequency=100#	If 0, then learning tracking will run every epoch (i.e. every pass through all instances in the training data). Otherwise it will occur after the specified number of learning iterations.
-learningIterations=50.100#5000.10000#.20000#.50000.100000#.200000#					Specify every iteration at which a full algorithm evaluation will be conducted and output files saved.  The last/largest value indicates the stopping point. Separate values with a period (.).
+learningIterations=50000.100000#5000.10000#.20000#.50000.100000#.200000#					Specify every iteration at which a full algorithm evaluation will be conducted and output files saved.  The last/largest value indicates the stopping point. Separate values with a period (.).
 outputSummary=1#											1 is True, 0 is False
 outputPopulation=1#											1 is True, 0 is False
 outputAttCoOccur=1#											1 is True, 0 is False
